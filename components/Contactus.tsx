@@ -150,10 +150,10 @@ const Contactus = () => {
       <div className="
       lg:hidden
       md:hidden
-      w-full h-screen flex flex-col justify-center items-center
+      w-full h-screen flex flex-col justify-center items-center relative
       " >
       <div className="h-[10vh] w-full "></div>
-      <div className="h-[35vh] w-full flex flex-col justify-end items-center">
+      <div className="h-[30vh] w-full flex flex-col justify-end items-center">
         <div className={styles.contactus_text1_mob}>
           Your curiosity 
         </div>
@@ -162,7 +162,7 @@ const Contactus = () => {
         </div>
         <div className={styles.contactus_text2_mob}>lets catch up!</div>
       </div>
-      <div className="h-[55vh]  w-full flex flex-col justify-center items-center">
+      <div className="h-[50vh]  w-full flex flex-col justify-center items-center">
         <div className="flex justify-center items-center h-[300px] w-[280px] relative">
           <div className={styles.contactus_box_mob}>
             <div className="w-full h-[20%] flex justify-end items-center">
@@ -219,6 +219,9 @@ const Contactus = () => {
           />
         </div>
       </div>
+      <a className="absolute bottom-0" href="/#" >
+            <img className="py-6" src="/assets/uparrow.png" alt="arrow" />
+          </a>
       </div>
     </div>
   );

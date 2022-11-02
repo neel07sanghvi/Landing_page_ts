@@ -105,7 +105,8 @@ const Homepage = () => {
             >
               <img
                 className="h-[70%]"
-                src="/assets/homepage/DataAnalytics.png"
+                src="/assets/homepage/DataProcessing.png"
+                
                 alt="img"
               />
             </div>
@@ -115,7 +116,7 @@ const Homepage = () => {
             >
               <img
                 className="h-[70%]"
-                src="/assets/homepage/DataProcessing.png"
+                src="/assets/homepage/DataAnalytics.png"
                 alt="img"
               />
             </div>
@@ -227,7 +228,8 @@ const Homepage = () => {
             >
               <img
                 className="w-[100%]"
-                src="/assets/homepage/DataAnalytics.png"
+                
+                src="/assets/homepage/DataProcessing.png"
                 alt="img"
               />
             </div>
@@ -237,7 +239,7 @@ const Homepage = () => {
             >
               <img
                 className="w-[100%]"
-                src="/assets/homepage/DataProcessing.png"
+                src="/assets/homepage/DataAnalytics.png"
                 alt="img"
               />
             </div>
@@ -286,19 +288,20 @@ const Homepage = () => {
       
       {/* mob view */}
       <div className="
-      w-screen h-screen flex flex-col justify-center items-center
+      w-screen h-screen flex flex-col justify-center items-center relative
       md:hidden
       lg:hideen
       ">
         <div className="h-[10%] w-full" ></div>
-        <div className="h-[40%] w-full flex flex-col">
-          <div className=" h-[50vh] w-full  flex justify-center items-center relative">
+        <div className="h-[50%] w-full flex flex-col">
+          <div className=" h-[100%] w-full  flex justify-center items-center relative">
             <div
               className={radioclick === 1 ? styles.slider : styles.slider_hide}
             >
               <img
-                className="h-[40%]"
-                src="/assets/homepage/DataAnalytics.png"
+                className="h-[35%]"
+                src="/assets/homepage/DataProcessing.png"
+                
                 alt="img"
               />
             </div>
@@ -308,7 +311,7 @@ const Homepage = () => {
             >
               <img
                 className="h-[40%]"
-                src="/assets/homepage/DataProcessing.png"
+                src="/assets/homepage/DataAnalytics.png"
                 alt="img"
               />
             </div>
@@ -353,7 +356,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="h-[40%] w-full flex flex-col justify-center items-center  relative">
+        <div className="h-[60%] w-full flex flex-col justify-center items-center  relative">
           <div className="relative flex justify-center items-center h-[75px] w-full ">
             <div
               className={
@@ -390,7 +393,7 @@ const Homepage = () => {
             do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
           </div>
           <div className={styles.explorediv_mob}>
-            <a href="/#services">
+            <a  href="/#services">
               <div className={styles.explore_btn_mob}>
                 <span>Explore</span>
                 <img
@@ -401,6 +404,7 @@ const Homepage = () => {
               </div>
             </a>
           </div>
+          
         </div>
       </div>
     </div>

@@ -1,13 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/services.module.css";
 
 const Service = () => {
+  const [navbar_active, setnavbar_active] = useState(false);
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY <= screen.height) {
+        setnavbar_active(true);
+        console.log("working")
+      }
+      else{
+        console.log("not")
+      }
+    };
+    window.addEventListener("scroll", handleShadow);
+  }, []);
+
   return (
     <div
       id="services"
       className="w-full h-[auto] flex justify-center items-center"
     >
-
       {/* web view */}
       <div
         className="
@@ -195,103 +208,114 @@ const Service = () => {
           </div>
         </div>
       </div>
-      
+
       {/* mob view */}
-      <div className="
-      w-full h-screen flex flex-col justify-center items-center
+      <div
+        className="
+      w-full h-screen flex flex-col justify-center items-center 
       lg:hidden
-      md:hidden">
-        <div className="h-[10%] w-full" ></div>
-      <div className="flex flex-col justify-evenly items-center h-[40%] w-full">
-        <div className={styles.services_font_mob}>
-          <div className={styles.services_font1_mob}>Let&apos;s</div>
-          <div className={styles.services_font1_mob}>Put Technology </div>
-          <div className={styles.services_font1_mob}>At Work!</div>
-        </div>
-        <div className="flex w-full p-10 justify-center  items-center  ">
-          <div className="flex justify-center items-center px-4">
-            <img
-              className="h-[20px]"
-              src="/assets/services/upload.png"
-              alt="upload"
-            />
-            <div className="px-3  text-sm">Upload</div>
+      md:hidden"
+      >
+        <div className="h-[10%] w-full"></div>
+        <div className="flex flex-col justify-between items-center h-[35%] w-full">
+          <div className={styles.services_font_mob}>
+            <div className={styles.services_font1_mob}>Let&apos;s</div>
+            <div className={styles.services_font1_mob}>Put Technology </div>
+            <div className={styles.services_font1_mob}>At Work!</div>
           </div>
-          <div className="flex justify-center items-center px-4">
-            <img
-              className="h-[20px]"
-              src="/assets/services/click.png"
-              alt="click"
-            />
-            <div className="px-3 text-sm">Click</div>
-          </div>
-          <div className="flex justify-center items-center px-4">
-            <img
-              className="h-[20px]"
-              src="/assets/services/explore.png"
-              alt="explore"
-            />
-            <div className="px-3  text-sm">Explore</div>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col justify-center items-center h-[50%] w-full">
-        <div className="h-[600px] w-[280px] relative flex justify-center  items-center">
-
-          <div className={styles.services_box_mob}>
-            <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
+          <div className="flex w-full p-10 justify-center  items-center  ">
+            <div className="flex justify-center items-center px-4">
               <img
-                className="h-[70%]"
-                src="/assets/services/sheeticon.png"
-                alt="sheet"
+                className="h-[20px]"
+                src="/assets/services/upload.png"
+                alt="upload"
               />
+              <div className="px-3  text-sm">Upload</div>
             </div>
+            <div className="flex justify-center items-center px-4">
+              <img
+                className="h-[20px]"
+                src="/assets/services/click.png"
+                alt="click"
+              />
+              <div className="px-3 text-sm">Click</div>
+            </div>
+            <div className="flex justify-center items-center px-4">
+              <img
+                className="h-[20px]"
+                src="/assets/services/explore.png"
+                alt="explore"
+              />
+              <div className="px-3  text-sm">Explore</div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center h-[45%] w-full">
+          <div className="h-[600px] w-[280px] relative flex justify-center  items-center">
+            <div className={styles.services_box_mob}>
+              <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
+                <img
+                  className="h-[70%]"
+                  src="/assets/services/sheeticon.png"
+                  alt="sheet"
+                />
+              </div>
 
-
-            <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
-              <div className={styles.animation_box_mob}>
-                <div className={styles.darwinsheet_mob}>
-                  <div className="font-bold text-[15px] py-[10px]">
-                    Darwin Sheet
+              <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
+                <div className={styles.animation_box_mob}>
+                  <div
+                    className={
+                      navbar_active
+                        ? styles.darwinsheet_mob_ani
+                        : styles.darwinsheet_mob
+                    }
+                  >
+                    <div className="font-bold text-[15px]">
+                      Darwin Sheet
+                    </div>
                   </div>
-                  <img
-                    className="h-[45px] p-[15px] font-bold"
-                    src="/assets/services/arrow.png"
-                    alt="arrow"
-                  />
-                </div>
-                <div className={styles.sheet_text_mob}>
-                  <div className="text-[10px]" >With Darwin sheet you can create data apps, explore the data
-                  inferences and evolve your business. Without any pre-requisit
-                  of coding languages.</div>
+                  <div
+                    className={
+                      navbar_active
+                        ? styles.sheet_text_mob_ani
+                        : styles.sheet_text_mob
+                    }
+                  >
+                    <div className="text-[9px]">
+                      With Darwin sheet you can create data apps, explore the
+                      data inferences and evolve your business. Without any
+                      pre-requisit of coding languages.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <img
+              src="/assets/services/boximg1.png"
+              className={styles.boximg1_mob}
+              alt="box"
+            />
+            <img
+              src="/assets/services/boximg2.png"
+              className={styles.boximg2_mob}
+              alt="box"
+            />
+            <img
+              src="/assets/services/boximg3.png"
+              className={styles.boximg3_mob}
+              alt="box"
+            />
+            <img
+              src="/assets/services/boximg4.png"
+              className={styles.boximg4_mob}
+              alt="box"
+            />
           </div>
-
-
-          <img
-            src="/assets/services/boximg1.png"
-            className={styles.boximg1_mob}
-            alt="box"
-          />
-          <img
-            src="/assets/services/boximg2.png"
-            className={styles.boximg2_mob}
-            alt="box"
-          />
-          <img
-            src="/assets/services/boximg3.png"
-            className={styles.boximg3_mob}
-            alt="box"
-          />
-          <img
-            src="/assets/services/boximg4.png"
-            className={styles.boximg4_mob}
-            alt="box"
-          />
         </div>
-      </div>
+        <a  href="/#aboutus">
+          <img className="py-6" src="/assets/downarrow.png" alt="arrow" />
+        </a>
       </div>
     </div>
   );

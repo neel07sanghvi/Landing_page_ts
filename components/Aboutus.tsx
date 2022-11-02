@@ -92,7 +92,7 @@ const Aboutus = () => {
       
       {/* mob view */}
       <div className="
-      w-full h-screen flex flex-col justify-center items-center
+      w-full h-screen flex flex-col justify-center items-center relative
       lg:hidden
       md:hidden
       " >
@@ -129,7 +129,11 @@ const Aboutus = () => {
             alt="img"
           />
         </div>
+        <a className="absolute bottom-0" href="/#contactus" >
+            <img className="py-6" src="/assets/downarrow.png" alt="arrow" />
+          </a>
       </div>
+      
     </div>
   );
 };

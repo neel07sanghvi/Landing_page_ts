@@ -38,24 +38,26 @@ body {
 
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
+  
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #878686;
+  background: black;
+  border-right: 5px black solid;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(61, 61, 61);
-  border-radius: 10px;
+  border-right: 5px black solid;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(34, 34, 34);
-  border-radius: 10px;
+  border-right: 5px black solid;
 }
 
 a:link{
