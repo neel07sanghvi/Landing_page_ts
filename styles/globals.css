@@ -1,26 +1,63 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html{
+  scroll-behavior:smooth;
+}
+
+:root {
+  /* All project colors */
+  --black: #000;
+  --primary: #EE6D26;
+  --contactusborder: linear-gradient(90deg,#868686 , #2D2B26);
+
+  /* All project fonts */
+  --poppins: 'Poppins', sans-serif;
+  --alice: 'Alice', serif;
+  --navfont : 'Source Code Pro', monospace;
+
+  /* gradients */
+  --navgrad: linear-gradient(90deg,rgba(34,34,34,0.6)0%,rgba(0,0,0,0.1)97.68%);
+
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--poppins);
+
+  background-color: var(--black);
+  color: white;
+  scroll-behavior: smooth !important;
+  overflow-x: hidden;
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-* {
-  box-sizing: border-box;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #878686;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(61, 61, 61);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(34, 34, 34);
+  border-radius: 10px;
+}
+
+a:link{
+  scroll-behavior: smooth !important ;
 }

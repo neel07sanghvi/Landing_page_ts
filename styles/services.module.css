@@ -1,0 +1,409 @@
+.services_font {
+  /* p-16 flex flex-col justify-center items-start  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 64px;
+}
+
+.services_font1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 165.5%;
+  background: linear-gradient(180deg, #f6f6f4 12.26%, rgba(0, 0, 0, 0) 133.87%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.services_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  left: 50px;
+  align-items: center;
+  padding: 15px;
+  height: 370px;
+  width: 270px;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 34, 34, 0.6) 0%,
+    rgba(0, 0, 0, 0.1) 97.68%
+  );
+  /* background-color: red; */
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 15px;
+  border: 1.5px solid #585858;
+  z-index: 100;
+  transition: 1s ease-in-out;
+}
+
+.boximg1 {
+  height: 100px;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+}
+.boximg2 {
+  height: 100px;
+  position: absolute;
+  top: 70px;
+  left: 270px;
+}
+.boximg3 {
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: -20px;
+}
+.boximg4 {
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  left: -20px;
+}
+
+.animation_box {
+  width: 100%;
+  height: 220px;
+  width: 100%;
+  position: relative;
+  z-index: 102;
+  transition: 0.5s ease-in-out;
+  font-family: var(--poppins);
+}
+
+.darwinsheet {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.sheet_text {
+  position: absolute;
+  font-size: small;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 0;
+}
+
+.services_box :hover .darwinsheet {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.services_box :hover .sheet_text {
+  position: absolute;
+  font-size: small;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 1;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}
+
+/* tab */
+
+.services_box_tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  left: 50px;
+  align-items: center;
+  padding: 15px;
+  height: 320px;
+  width: 240px;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 34, 34, 0.6) 0%,
+    rgba(0, 0, 0, 0.1) 97.68%
+  );
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  border: 1.5px solid #585858;
+  z-index: 100;
+  transition: 1s ease-in-out;
+}
+
+.boximg1_tab {
+  height: 85px;
+  position: absolute;
+  top: 350px;
+  left: 270px;
+}
+.boximg2_tab {
+  height: 85px;
+  position: absolute;
+  top: 95px;
+  left: 250px;
+}
+.boximg3_tab {
+  height: 85px;
+  position: absolute;
+  top: 170px;
+  left: 0px;
+}
+.boximg4_tab {
+  height: 85px;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+}
+
+.animation_box_tab {
+  width: 100%;
+  height: 220px;
+  width: 100%;
+  position: relative;
+  z-index: 102;
+  transition: 0.5s ease-in-out;
+  font-family: var(--poppins);
+}
+
+.darwinsheet_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.sheet_text_tab {
+  position: absolute;
+  font-size: small;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 0;
+}
+
+.services_font_tab {
+  /* p-16 flex flex-col justify-center items-start  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 64px;
+}
+
+.services_font1_tab {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 165.5%;
+  background: linear-gradient(180deg, #f6f6f4 12.26%, rgba(0, 0, 0, 0) 133.87%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.services_box :hover .darwinsheet {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.services_box :hover .sheet_text {
+  position: absolute;
+  font-size: small;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 1;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}
+.services_box_tab :hover .darwinsheet_tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.services_box_tab :hover .sheet_text_tab {
+  position: absolute;
+  font-size: small;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 1;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}
+
+
+/* mob */
+
+.services_box_mob {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  align-items: center;
+  padding: 15px;
+  height: 250px;
+  width: 180px;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 34, 34, 0.6) 0%,
+    rgba(0, 0, 0, 0.1) 97.68%
+  );
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  border: 1.5px solid #585858;
+  z-index: 100;
+  left: 50px;
+  top: 45px;
+  transition: 1s ease-in-out;
+}
+
+.boximg1_mob {
+  height: 65px;
+  position: absolute;
+  top: 200px;
+  left: 215px;
+}
+.boximg2_mob {
+  height: 65px;
+  position: absolute;
+  top: 15px;
+  left: 205px;
+}
+.boximg3_mob {
+  height: 65px;
+  position: absolute;
+  top: 70px;
+  left: -5px;
+}
+.boximg4_mob {
+  height: 65px;
+  position: absolute;
+  top: 250px;
+  left: 15px;
+}
+
+.services_font_mob {
+  /* p-16 flex flex-col justify-center items-start  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services_font1_mob {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 165.5%;
+  background: linear-gradient(180deg, #f6f6f4 12.26%, rgba(0, 0, 0, 0) 133.87%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.darwinsheet_mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  top: -10px;
+  font-size: 5px;
+}
+
+.animation_box_mob {
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  position: relative;
+  z-index: 102;
+  transition: 0.5s ease-in-out;
+  font-family: var(--poppins);
+}
+
+.sheet_text_mob {
+  position: absolute;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 0;
+}
+
+.services_box_mob :hover .darwinsheet_mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  z-index: 104;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+
+.services_box_mob :hover .sheet_text_mob {
+  position: absolute;
+  font-size: small;
+  padding: 10px 0;
+  border-top: 1.5px solid grey;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0;
+  z-index: 103;
+  opacity: 1;
+  transition: opacity 1s linear;
+  cursor: pointer;
+}

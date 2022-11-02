@@ -1,0 +1,200 @@
+.contactus_text1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(180deg, #f6f6f4 13.94%, rgba(0, 0, 0, 0) 132.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contactus_text2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 166.5%;
+
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    181.61deg,
+    #f6f6f4 1.37%,
+    rgba(0, 0, 0, 0) 131.94%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contactus_box {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 0.6) 0%,
+    rgba(0, 0, 0, 0.1) 97.68%
+  );
+  backdrop-filter: blur(15px);
+
+  border-radius: 15px;
+  height: 250px;
+  width: 400px;
+  border: 1px solid #868686;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.contactus_mail{
+  height: 60px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.contactus_phone{
+  height: 60px;
+  position: absolute;
+  top: 45px;
+  left: 200px;
+}
+
+.contactus_sms{
+  height: 60px;
+  position: absolute;
+  top: 45px;
+  left: 350px;
+}
+
+.contactus_coffee{
+  height: 50px;
+  position: absolute;
+  top: 250px;
+  left: 470px;
+}
+
+.contactus_innerbox{
+  /* "w-full h-[80%] flex flex-col justify-start items-center text-[15px] text-[#9EA2A3]" */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  color: #9EA2A3;
+}
+
+/* mob */
+
+
+.contactus_text1_mob {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(180deg, #f6f6f4 13.94%, rgba(0, 0, 0, 0) 132.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contactus_text2_mob {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 166.5%;
+
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    181.61deg,
+    #f6f6f4 1.37%,
+    rgba(0, 0, 0, 0) 131.94%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 20px;
+}
+
+.contactus_box_mob {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 34, 34, 0.6) 0%,
+    rgba(0, 0, 0, 0.1) 97.68%
+  );
+  backdrop-filter: blur(15px);
+
+  border-radius: 15px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  border: 1px solid #868686;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.contactus_mail_mob{
+  height: 40px;
+  position: absolute;
+  top: 200px;
+  left: -35px;
+}
+
+.contactus_phone_mob{
+  height: 40px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+
+.contactus_sms_mob{
+  height: 40px;
+  position: absolute;
+  top: 30px;
+  left: 160px;
+}
+
+.contactus_coffee_mob{
+  height: 30px;
+  position: absolute;
+  top: 200px;
+  left: 260px;
+}
+
+.contactus_innerbox_mob{
+  /* "w-full h-[80%] flex flex-col justify-start items-center text-[15px] text-[#9EA2A3]" */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: 10px;
+  color: #9EA2A3;
+}
