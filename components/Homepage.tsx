@@ -85,7 +85,7 @@ const Homepage = () => {
             do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
           </div>
           <div className={styles.explorediv}>
-            <Link href="/#services">
+            <a href="/#services">
               <div className={styles.explore_btn}>
                 <span>Explore</span>
                 <img
@@ -94,7 +94,7 @@ const Homepage = () => {
                   alt="arrow"
                 />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -207,7 +207,7 @@ const Homepage = () => {
             do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
           </div>
           <div className={styles.explorediv_tab}>
-            <Link href="/#services">
+            <a href="/#services">
               <div className={styles.explore_btn_tab}>
                 <span>Explore</span>
                 <img
@@ -216,7 +216,7 @@ const Homepage = () => {
                   alt="arrow"
                 />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -390,7 +390,7 @@ const Homepage = () => {
             do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
           </div>
           <div className={styles.explorediv_mob}>
-            <Link href="/#services">
+            <a href="/#services">
               <div className={styles.explore_btn_mob}>
                 <span>Explore</span>
                 <img
@@ -399,7 +399,7 @@ const Homepage = () => {
                   alt="arrow"
                 />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
