@@ -291,7 +291,7 @@ const Homepage = () => {
       lg:hideen
       ">
         <div className="h-[10%] w-full" ></div>
-        <div className="h-[50%] w-full flex flex-col">
+        <div className="h-[40%] w-full flex flex-col">
           <div className=" h-[50vh] w-full  flex justify-center items-center relative">
             <div
               className={radioclick === 1 ? styles.slider : styles.slider_hide}
@@ -354,7 +354,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="h-[40%] w-full flex flex-col justify-center items-center  relative">
-          <div className="relative flex justify-center items-center h-[75px] w-full flex ">
+          <div className="relative flex justify-center items-center h-[75px] w-full ">
             <div
               className={
                 radioclick === 1
