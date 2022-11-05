@@ -96,7 +96,7 @@ const Aboutus = () => {
       lg:hidden
       md:hidden
       " >
-        <div className="h-[650px] w-full min-w-[280px] relative flex justify-center items-center">
+        <div className="h-[650px]  w-full min-w-[280px] relative flex justify-center items-center">
           <div className={styles.mainbox_mob}>
             Evolution is ultimate, and we are committed to empowering people to
             adapt the changing technology landscapes. We help people and
@@ -128,6 +128,7 @@ const Aboutus = () => {
             src="/assets/aboutus/comma.png"
             alt="img"
           />
+          
         </div>
         <a className="absolute bottom-[50px]" href="/#contactus" >
             <img className="py-6" src="/assets/downarrow.png" alt="arrow" />

@@ -194,7 +194,7 @@
   border-radius: 10px;
   
   position: absolute;
-  top: 500px;
+  top: 450px;
   z-index: 106;
   min-width: 280px;
   width: 85%;
@@ -220,7 +220,7 @@
 .boximg2_mob{
     position: absolute;
     height: 80px;
-    top: 430px;
+    top: 380px;
     left: 70%;
 }
 
