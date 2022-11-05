@@ -212,7 +212,7 @@ const Service = () => {
       {/* mob view */}
       <div
         className="
-      w-full h-screen flex flex-col justify-center items-center 
+      w-full h-screen flex flex-col justify-center items-center relative
       lg:hidden
       md:hidden"
       >
@@ -250,7 +250,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center h-[45%] w-full">
+        <div className="flex flex-col justify-center items-center h-[55%] w-full">
           <div className="h-[600px] w-[280px] relative flex justify-center  items-center">
             <div className={styles.services_box_mob}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
@@ -313,7 +313,7 @@ const Service = () => {
             />
           </div>
         </div>
-        <a  href="/#aboutus">
+        <a className="absolute bottom-0"  href="/#aboutus">
           <img className="py-6" src="/assets/downarrow.png" alt="arrow" />
         </a>
       </div>
