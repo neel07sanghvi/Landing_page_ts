@@ -313,7 +313,7 @@ const Service = () => {
             />
           </div>
         </div>
-        <a className="absolute bottom-[30px]"  href="/#aboutus">
+        <a className="absolute bottom-[50px]"  href="/#aboutus">
           <img className="py-6" src="/assets/downarrow.png" alt="arrow" />
         </a>
       </div>
