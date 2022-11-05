@@ -217,7 +217,7 @@ const Service = () => {
       md:hidden"
       >
         <div className="h-[10%] w-full"></div>
-        <div className="flex flex-col justify-between items-center h-[35%] w-full">
+        <div className="flex flex-col justify-between items-center h-[30%] w-full">
           <div className={styles.services_font_mob}>
             <div className={styles.services_font1_mob}>Let&apos;s</div>
             <div className={styles.services_font1_mob}>Put Technology </div>
@@ -250,7 +250,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center h-[55%] w-full">
+        <div className="flex flex-col justify-center items-center h-[50%] w-full">
           <div className="h-[600px] w-[280px] relative flex justify-center  items-center">
             <div className={styles.services_box_mob}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
