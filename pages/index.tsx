@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from '../components/Navbar';
 import Service from "../components/Service";
 import Homepage from "../components/Homepage";
 import Contactus from "../components/Contactus";
@@ -40,6 +41,7 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
+      <Navbar />
       <Homepage />
       <Service />
       <Aboutus />

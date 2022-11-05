@@ -87,7 +87,7 @@ const Homepage = () => {
           <div className={styles.explorediv}>
             <a href="/#services">
               <div className={styles.explore_btn}>
-                <span>Explore</span>
+                Explore
                 <img
                   className="h-[15px]"
                   src="/assets/homepage/arrow.png"
@@ -210,7 +210,7 @@ const Homepage = () => {
           <div className={styles.explorediv_tab}>
             <a href="/#services">
               <div className={styles.explore_btn_tab}>
-                <span>Explore</span>
+                Explore
                 <img
                   className="h-[15px]"
                   src="/assets/homepage/arrow.png"
@@ -356,7 +356,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div className="h-[60%] w-full flex flex-col justify-center items-center  relative">
+        <div className="h-[60%] w-full flex flex-col justify-start items-center  relative">
           <div className="relative flex justify-center items-center h-[75px] w-full ">
             <div
               className={
@@ -395,7 +395,7 @@ const Homepage = () => {
           <div className={styles.explorediv_mob}>
             <a  href="/#services">
               <div className={styles.explore_btn_mob}>
-                <span>Explore</span>
+                Explore
                 <img
                   className="h-[15px]"
                   src="/assets/homepage/arrow.png"

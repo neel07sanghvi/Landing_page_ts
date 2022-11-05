@@ -63,3 +63,23 @@ body {
 a:link{
   scroll-behavior: smooth !important ;
 }
+
+input[type=checkbox] ::before {
+  accent-color: var(--black);
+}
+
+input[type=checkbox]  {
+  accent-color: var(--primary);
+}
+
+input[type=text] :focus  {
+  border: none;
+  outline: none;
+}
+
+input[type=text]   {
+  /* border: none; */
+  outline: none;
+  text-align: center;
+  
+}

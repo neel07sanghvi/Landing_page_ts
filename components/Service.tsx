@@ -63,7 +63,7 @@ const Service = () => {
         </div>
         <div className="flex flex-col justify-center items-center h-full w-[50%] ">
           <div className="h-[600px] w-[500px] relative flex justify-start  items-center">
-            <div className={styles.services_box}>
+            <a href="/authentication" target="_blank" className={styles.services_box}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
                   className="h-[70%]"
@@ -90,7 +90,7 @@ const Service = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
             <img
               src="/assets/services/boximg1.png"
               className={styles.boximg1}
