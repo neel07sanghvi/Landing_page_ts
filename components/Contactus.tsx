@@ -219,7 +219,7 @@ const Contactus = () => {
           />
         </div>
       </div>
-      <a className="absolute bottom-0" href="/#" >
+      <a className="absolute bottom-[10px]" href="/#" >
             <img className="py-6" src="/assets/uparrow.png" alt="arrow" />
           </a>
       </div>

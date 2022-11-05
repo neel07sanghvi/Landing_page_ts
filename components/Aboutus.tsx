@@ -129,7 +129,7 @@ const Aboutus = () => {
             alt="img"
           />
         </div>
-        <a className="absolute bottom-0" href="/#contactus" >
+        <a className="absolute bottom-[10px]" href="/#contactus" >
             <img className="py-6" src="/assets/downarrow.png" alt="arrow" />
           </a>
       </div>
