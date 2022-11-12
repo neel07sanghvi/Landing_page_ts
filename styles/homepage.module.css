@@ -225,7 +225,7 @@
   width: 80%;
   padding: 25px 0px;
   color: rgba(183, 183, 182, 0.8);
-  font-size: 8px;
+  font-size: 11px;
   text-align: center;
 }
 
@@ -236,8 +236,8 @@
   align-items: center;
   padding: 20px 45px 20px 54px;
   gap: 14px;
-  width: 140px;
-  height: 40px;
+  width: 125px;
+  height: 25px;
   background-color: black;
   border-radius: 100px;
   border: 2px solid #585858;
