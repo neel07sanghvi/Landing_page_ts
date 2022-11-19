@@ -66,7 +66,7 @@ const Service = () => {
             <a href="/authentication" target="_blank" className={styles.services_box}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
-                  className="h-[70%]"
+                  className="h-[85%]"
                   src="/assets/sheet.png"
                   alt="sheet"
                 />
@@ -160,7 +160,7 @@ const Service = () => {
             <div className={styles.services_box_tab}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
-                  className="h-[70%]"
+                  className="h-[85%]"
                   src="/assets/sheet.png"
                   alt="sheet"
                 />
@@ -255,7 +255,7 @@ const Service = () => {
             <div className={styles.services_box_mob}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
-                  className="h-[70%]"
+                  className="h-[100%]"
                   src="/assets/sheet.png"
                   alt="sheet"
                 />

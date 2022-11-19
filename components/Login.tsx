@@ -76,7 +76,7 @@ const Login = () => {
             placeholder="Enter your coupon"
             className={
               true
-                ? "z-[100] w-[180px] h-[40px] border-dashed text-xs cursor-none bg-black text-[var(--primary)] border-[#616161] border-2 rounded-md"
+                ? "z-[100] w-[180px] h-[40px] border-dashed text-xs uppercase bg-black text-[var(--primary)] border-[#616161] border-2 rounded-md"
                 : "hidden"
             }
           ></input>

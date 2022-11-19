@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import sheet from '../public/assets/sheet.png';
+import lab from '../public/assets/lab.png';
 
 const Navbar = () => {
 
@@ -62,13 +63,13 @@ const Navbar = () => {
         <div className='flex justify-center items-center w-full h-full md:px-16   relative'>
         <a href='/' className='flex justify-between items-center md:absolute md:pl-16  left-0'>
             <Image
-              src={sheet}
+              src={lab}
               alt='/'
               width='30'
               height='40'
-              className='cursor-pointer'
+              className='w-[38px] h-[45px] cursor-pointer'
             />
-            <h3 className='text-lg px-[10px]' >DARWIN SHEET</h3>
+            <h3 className='text-lg px-[10px]' >DARWIN LAB</h3>
         </a>
         <div>
           <ul  className='hidden lg:flex text-[15px]'>
