@@ -67,7 +67,7 @@ const Service = () => {
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
                   className="h-[70%]"
-                  src="/assets/services/sheeticon.png"
+                  src="/assets/sheet.png"
                   alt="sheet"
                 />
               </div>
@@ -161,7 +161,7 @@ const Service = () => {
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
                   className="h-[70%]"
-                  src="/assets/services/sheeticon.png"
+                  src="/assets/sheet.png"
                   alt="sheet"
                 />
               </div>
@@ -256,7 +256,7 @@ const Service = () => {
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
                   className="h-[70%]"
-                  src="/assets/services/sheeticon.png"
+                  src="/assets/sheet.png"
                   alt="sheet"
                 />
               </div>

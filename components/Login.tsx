@@ -1,6 +1,7 @@
 import Image from "next/image";
-import NavLogo from "../public/assets/navLogo.png";
+import lab from "../public/assets/lab.png";
 import React, { useState } from "react";
+import styles from "../styles/login.module.css";
 
 const Login = () => {
   const [coupon, setcoupon] = useState(false);
@@ -18,11 +19,11 @@ const Login = () => {
       />
 
       <div className="flex justify-left items-center p-4 z-[100]">
-        <Image src={NavLogo} alt="/" height="40" className="cursor-pointer" />
-        <h3 className="text-lg px-[5px]">DARWIN LABS</h3>
+        <Image src={lab} alt="/" height="40" className="cursor-pointer" />
+        <h3 className="text-lg px-[10px]">DARWIN LAB</h3>
       </div>
 
-      <div className="mt-10 h-[35%] w-[90%] flex justify-center items-center z-[100]">
+      <div className="mt-16 h-[35%] w-[90%] flex justify-center items-center z-[100]">
         <div className="flex flex-col justify-between items-center w-[5%] h-full">
           <div className="h-[37%] w-[2px] bg-[#f6f6f4]"></div>
           <img className="h-[35px]" src="/assets/login/comma.png" alt="comma" />
@@ -31,11 +32,11 @@ const Login = () => {
 
         <div className="flex flex-col justify-center items-left w-[95%] h-full ml-[25px]">
           <img
-            className="h-[80px] w-[130px] "
+            className="h-[100px] w-[150px] "
             src="/assets/login/yes.png"
             alt="yes"
           />
-          <div className="flex flex-col text-[30px] italic">
+          <div className="flex flex-col text-[35px] italic">
             <div>Data Science is an Art, </div>
             <div>Let’s Craft it togther.</div>
           </div>
@@ -44,8 +45,7 @@ const Login = () => {
       <div className="h-[35%] w-[90%] flex justify-center items-center z-[100]">
         <div className="w-[5%] h-full"></div>
         <div className="flex flex-col justify-left items-left w-[95%] h-[150px] ml-[25px]">
-          <div className="font-bold">Sign up / Log in</div>
-          <div className="py-2 flex justify-left items-center">
+          {/* <div className="py-2 flex justify-left items-center">
             <div>
               <img
                 className="h-[35px] p-1 hover:border-[var(--primary)] hover:border-[1.5px] rounded-sm hover:cursor-pointer"
@@ -60,12 +60,23 @@ const Login = () => {
               type="checkbox"
             />
             <div className="pl-4">I have a coupon</div>
+          </div> */}
+          <div className={styles.gsigninbutton}>
+            <div className={styles.contentwrapper}>
+              <div className={styles.logowrapper}>
+                <img className={styles.gimg} src="https://developers.google.com/identity/images/g-logo.png" />
+              </div>
+              <span className={styles.textcontainer}>
+                <span>Sign in with Google</span>
+              </span>
+            </div>
           </div>
           <input
             type="text"
+            placeholder="Enter your coupon"
             className={
-              coupon
-                ? "z-[100] w-[200px] h-[50px] border-dashed bg-black uppercase text-[var(--primary)] border-[var(--primary)] border-2 rounded-sm"
+              true
+                ? "z-[100] w-[180px] h-[40px] border-dashed text-xs cursor-none bg-black text-[var(--primary)] border-[#616161] border-2 rounded-md"
                 : "hidden"
             }
           ></input>
