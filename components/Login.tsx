@@ -2,6 +2,7 @@ import Image from "next/image";
 import lab from "../public/assets/lab.png";
 import React, { useState } from "react";
 import styles from "../styles/login.module.css";
+import {firebase} from './Firebase'
 
 const Login = () => {
   const [coupon, setcoupon] = useState(false);
@@ -9,6 +10,21 @@ const Login = () => {
   const checkboxFunction = () => {
     setcoupon(!coupon);
   };
+
+  const SignInWithFirebase = () => {
+    var google_provider = new firebase.auth.GoogleAuthProvider();
+    firebase
+      .auth()
+      .signInWithPopup(google_provider)
+      .then((res) => {
+        console.log(res);
+        console.log("success");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
 
   return (
     <div className="h-screen w-full flex flex-col pl-16  justify-left items-left relative">
@@ -61,7 +77,7 @@ const Login = () => {
             />
             <div className="pl-4">I have a coupon</div>
           </div> */}
-          <div className={styles.gsigninbutton}>
+          <div onClick={SignInWithFirebase} className={styles.gsigninbutton}>
             <div className={styles.contentwrapper}>
               <div className={styles.logowrapper}>
                 <img className={styles.gimg} src="https://developers.google.com/identity/images/g-logo.png" />
