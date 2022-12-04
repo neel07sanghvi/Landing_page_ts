@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Navbar from '../components/Navbar';
+import Navbar from "../components/Navbar";
 import Service from "../components/Service";
 import Homepage from "../components/Homepage";
 import Contactus from "../components/Contactus";
 import Aboutus from "../components/Aboutus";
 
 export default function Home() {
-
-  
   return (
     <div>
       <Head>
@@ -38,6 +36,12 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,300&family=Source+Code+Pro:wght@200;300;400&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,300&family=Source+Code+Pro:wght@200;300;400&display=swap"
           rel="stylesheet"
         ></link>
       </Head>

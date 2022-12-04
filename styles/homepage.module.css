@@ -40,24 +40,23 @@
 }
 
 .explore {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
-  font-weight: 600;
-  font-size: 55px;
+  font-weight: 400;
+  font-size: 62px;
   line-height: 145.5%;
   background: linear-gradient(180deg, #ff8c3c 12.26%, rgba(0, 0, 0, 0) 123.87%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
-  top: -5px;
+  top: -25px;
   transition: 1.5s;
 }
 
 .thedata {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: light;
-  font-weight: 300;
-  font-size: 55px;
+  font-size: 62px;
   line-height: 145.5%;
   background: #f6f6f4;
   background-clip: text;
@@ -65,10 +64,10 @@
 }
 
 .browser_text {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: light;
   font-weight: 300;
-  font-size: 55px;
+  font-size: 62px;
   line-height: 145.5%;
   background: #f6f6f4;
   background-clip: text;
@@ -77,12 +76,14 @@
 
 .content {
   width: 80%;
-  padding: 40px 0px;
+  padding: 30px 0px;
   color: rgba(183, 183, 182, 0.8);
+  font-family: var(--inter);
+  font-size: 15px;
 }
 
 .explore_btn {
-  margin-top: 30px;
+  margin-top: 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -112,9 +113,9 @@
 /* tab view */
 
 .explore_tab {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 40px;
   line-height: 145.5%;
   background: linear-gradient(180deg, #ff8c3c 12.26%, rgba(0, 0, 0, 0) 123.87%);
@@ -126,9 +127,9 @@
 }
 
 .thedata_tab {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: light;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 40px;
   line-height: 145.5%;
   background: #f6f6f4;
@@ -137,7 +138,7 @@
 }
 
 .browser_text_tab {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: light;
   font-weight: 300;
   font-size: 40px;
@@ -152,6 +153,7 @@
   padding: 40px 0px;
   color: rgba(183, 183, 182, 0.8);
   font-size: 10px;
+  font-family: var(--inter);
 }
 
 .explore_btn_tab {
@@ -186,9 +188,9 @@
 
 
 .explore_mob {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 30px;
   line-height: 145.5%;
   background: linear-gradient(180deg, #ff8c3c 12.26%, rgba(0, 0, 0, 0) 123.87%);
@@ -200,9 +202,9 @@
 }
 
 .thedata_mob {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: light;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   line-height: 145.5%;
   background: #f6f6f4;
@@ -211,7 +213,7 @@
 }
 
 .browser_text_mob {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: light;
   font-weight: 300;
   font-size: 30px;
@@ -223,10 +225,11 @@
 
 .content_mob {
   width: 80%;
-  padding: 25px 0px;
+  padding: 15px 0px;
   color: rgba(183, 183, 182, 0.8);
-  font-size: 11px;
+  font-size: 10px;
   text-align: center;
+  font-family: var(--inter);
 }
 
 .explore_btn_mob {
@@ -236,11 +239,12 @@
   align-items: center;
   padding: 20px 45px 20px 54px;
   gap: 14px;
-  width: 125px;
-  height: 25px;
+  width: 120px;
+  height: 18px;
   background-color: black;
   border-radius: 100px;
   border: 2px solid #585858;
+  font-size: 15px;
 }
 
 .explorediv_mob :hover {

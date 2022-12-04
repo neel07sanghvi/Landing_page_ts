@@ -18,9 +18,12 @@ html{
   --poppins: 'Poppins', sans-serif;
   --alice: 'Alice', serif;
   --navfont : 'Source Code Pro', monospace;
+  --inter : 'Inter', sans-serif;
+  --aeonik : aeonik;
 
   /* gradients */
   --navgrad: linear-gradient(90deg,rgba(34,34,34,0.6)0%,rgba(0,0,0,0.1)97.68%);
+  --bordergrad: linear-gradient(180deg, #FFAE3C 0%, #E68E36 31.56%, #C2742F 66.98%, #613A18 97.71%);
 
 }
 
@@ -90,4 +93,10 @@ button,
 select,
 a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@font-face {
+  font-family: aeonik;
+  src: url(aeonik_regular.otf);
+  font-weight: bold;
 }

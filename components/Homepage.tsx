@@ -25,12 +25,15 @@ const Homepage = () => {
 
   function check1() {
     setradioclick(1);
+    console.log("1 clicked")
   }
   function check2() {
     setradioclick(2);
+    console.log("2 clicked")
   }
   function check3() {
     setradioclick(3);
+    console.log("3 clicked")
   }
 
   function jump_service() {}
@@ -48,7 +51,7 @@ const Homepage = () => {
       hidden
       "
       >
-        <div className="h-[screen] w-[50%] flex flex-col justify-center items-start pl-16 relative">
+        <div className="h-screen w-[50%] flex flex-col justify-center items-start pl-16 relative">
           <div className="relative h-[75px] w-full flex ">
             <div
               className={
@@ -81,8 +84,9 @@ const Homepage = () => {
           <div className={styles.thedata}>The data</div>
           <div className={styles.browser_text}>At your Browser!</div>
           <div className={styles.content}>
-            &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
+            Unhide your data potentials with pre built data visualization
+            templates. Use your imaginations to customize each story you want to
+            convey using graphs.
           </div>
           <div className={styles.explorediv}>
             <a href="/#services">
@@ -106,7 +110,6 @@ const Homepage = () => {
               <img
                 className="h-[70%]"
                 src="/assets/homepage/DataProcessing.png"
-                
                 alt="img"
               />
             </div>
@@ -204,8 +207,7 @@ const Homepage = () => {
           <div className={styles.thedata_tab}>The data</div>
           <div className={styles.browser_text_tab}>At your Browser!</div>
           <div className={styles.content_tab}>
-            &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
+          Unhide your data potentials with pre built data visualization templates. Use your imaginations to customize each story you want to convey using graphs.
           </div>
           <div className={styles.explorediv_tab}>
             <a href="/#services">
@@ -221,14 +223,13 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="h-[auto] w-[50%] flex flex-col ">
+        <div className="relative h-[auto] w-[50%] flex flex-col ">
           <div className=" h-[auto] w-full  flex justify-center items-center relative">
             <div
               className={radioclick === 1 ? styles.slider : styles.slider_hide}
             >
               <img
                 className="w-[100%]"
-                
                 src="/assets/homepage/DataProcessing.png"
                 alt="img"
               />
@@ -258,17 +259,17 @@ const Homepage = () => {
               />
             </div>
 
-            <div className="absolute flex justify-center items-center bottom-[10%]">
+            <div className="flex absolute bottom-[-200px]">
               <div className={styles.buttondiv}>
                 <button
                   onClick={check1}
-                  className={radioclick == 1 ? styles.button_ : styles.button}
+                  className={radioclick === 1 ? styles.button_ : styles.button}
                 ></button>
               </div>
               <div className={styles.buttondiv}>
                 <button
                   onClick={check2}
-                  className={radioclick == 2 ? styles.button_ : styles.button}
+                  className={radioclick === 2 ? styles.button_ : styles.button}
                 ></button>
               </div>
               <div className={styles.buttondiv}>
@@ -285,14 +286,16 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      
+
       {/* mob view */}
-      <div className="
+      <div
+        className="
       w-screen h-screen flex flex-col justify-center items-center relative
       md:hidden
       lg:hideen
-      ">
-        <div className="h-[10%] w-full" ></div>
+      "
+      >
+        <div className="h-[10%] w-full"></div>
         <div className="h-[50%] w-full flex flex-col">
           <div className=" h-[100%] w-full  flex justify-center items-center relative">
             <div
@@ -301,7 +304,6 @@ const Homepage = () => {
               <img
                 className="h-[35%]"
                 src="/assets/homepage/DataProcessing.png"
-                
                 alt="img"
               />
             </div>
@@ -331,16 +333,16 @@ const Homepage = () => {
             </div>
 
             <div className="absolute flex justify-center items-center bottom-[-10px]">
-              <div className={styles.buttondiv}>
+            <div className={styles.buttondiv}>
                 <button
                   onClick={check1}
-                  className={radioclick == 1 ? styles.button_ : styles.button}
+                  className={radioclick === 1 ? styles.button_ : styles.button}
                 ></button>
               </div>
               <div className={styles.buttondiv}>
                 <button
                   onClick={check2}
-                  className={radioclick == 2 ? styles.button_ : styles.button}
+                  className={radioclick === 2 ? styles.button_ : styles.button}
                 ></button>
               </div>
               <div className={styles.buttondiv}>
@@ -389,11 +391,10 @@ const Homepage = () => {
           <div className={styles.thedata_mob}>The data</div>
           <div className={styles.browser_text_mob}>At your Browser!</div>
           <div className={styles.content_mob}>
-            &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;
+          Unhide your data potentials with pre built data visualization templates. Use your imaginations to customize each story you want to convey using graphs.
           </div>
           <div className={styles.explorediv_mob}>
-            <a  href="/#services">
+            <a href="/#services">
               <div className={styles.explore_btn_mob}>
                 Explore
                 <img
@@ -404,7 +405,6 @@ const Homepage = () => {
               </div>
             </a>
           </div>
-          
         </div>
       </div>
     </div>

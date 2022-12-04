@@ -26,7 +26,7 @@ const Contactus = () => {
             <div className={styles.contactus_box}>
               <div className="w-full h-[20%] flex justify-end items-center">
                 <img
-                  src="/assets/navLogo.png"
+                  src="/assets/sheet.png"
                   alt="logo"
                   className="h-[50px]"
                 />
@@ -101,7 +101,7 @@ const Contactus = () => {
             <div className={styles.contactus_box}>
               <div className="w-full h-[20%] flex justify-end items-center">
                 <img
-                  src="/assets/navLogo.png"
+                  src="/assets/sheet.png"
                   alt="logo"
                   className="h-[50px]"
                 />
@@ -177,7 +177,7 @@ const Contactus = () => {
             <div className={styles.contactus_box_mob}>
               <div className="w-full h-[20%] flex justify-end items-center">
                 <img
-                  src="/assets/navLogo.png"
+                  src="/assets/sheet.png"
                   alt="logo"
                   className="h-[40px]"
                 />

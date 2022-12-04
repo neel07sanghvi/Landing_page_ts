@@ -60,35 +60,33 @@ const Navbar = () => {
       }
     >
 
-        <div className='flex justify-center items-center w-full h-full md:px-16   relative'>
+        <div className='flex justify-end items-center w-full h-full md:px-16   relative'>
         <a href='/' className='flex justify-between items-center md:absolute md:pl-16  left-0'>
             <Image
               src={lab}
               alt='/'
-              width='30'
-              height='40'
               className='w-[38px] h-[45px] cursor-pointer'
             />
             <h3 className='text-lg px-[10px]' >DARWIN LAB</h3>
         </a>
         <div>
           <ul  className='hidden lg:flex text-[15px]'>
-            <li className={navbar_active === "Home" ? 'ml-10  border-b-2 py-5 border-[var(--primary)]': 'ml-10  py-5'}>
+            <li className={navbar_active === "Home" ? 'ml-16  border-b-2 py-5 border-[var(--primary)]': 'ml-16  py-5'}>
               <a href='/#'>
                 Home
               </a>
             </li>
-            <li className={navbar_active === "Services" ? 'ml-10  border-b-2 py-5 border-[var(--primary)]': 'ml-10  py-5'}>
+            <li className={navbar_active === "Services" ? 'ml-16  border-b-2 py-5 border-[var(--primary)]': 'ml-16  py-5'}>
               <a href='/#services'>
                 Services
               </a>
             </li>
-            <li className={navbar_active === "Aboutus" ? 'ml-10  border-b-2 py-5 border-[var(--primary)]': 'ml-10  py-5'}>
+            <li className={navbar_active === "Aboutus" ? 'ml-16  border-b-2 py-5 border-[var(--primary)]': 'ml-16  py-5'}>
               <a href='/#aboutus'>
                 About us
               </a>
             </li>
-            <li className={navbar_active === "Contactus" ? 'ml-10  border-b-2 py-5 border-[var(--primary)]': 'ml-10  py-5'}>
+            <li className={navbar_active === "Contactus" ? 'ml-16  border-b-2 py-5 border-[var(--primary)]': 'ml-16  py-5'}>
               <a href='/#contactus'>Contact us</a>
             </li>
           </ul>
