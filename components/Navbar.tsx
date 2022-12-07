@@ -60,7 +60,7 @@ const Navbar = () => {
       }
     >
 
-        <div className='flex justify-end items-center w-full h-full md:px-16   relative'>
+        <div className='flex justify-center md:justify-end items-center w-full h-full md:px-16   relative'>
         <a href='/' className='flex justify-between items-center md:absolute md:pl-16  left-0'>
             <Image
               src={lab}
