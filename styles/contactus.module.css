@@ -1,5 +1,5 @@
 .contactus_text1 {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
 
-  background: linear-gradient(180deg, #f6f6f4 13.94%, rgba(0, 0, 0, 0) 132.69%);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -16,18 +16,14 @@
 .contactus_text2 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 45px;
   line-height: 166.5%;
 
   display: flex;
   align-items: center;
 
-  background: linear-gradient(
-    181.61deg,
-    #f6f6f4 1.37%,
-    rgba(0, 0, 0, 0) 131.94%
-  );
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

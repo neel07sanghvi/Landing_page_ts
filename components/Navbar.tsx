@@ -65,7 +65,7 @@ const Navbar = () => {
             <Image
               src={lab}
               alt='/'
-              className='w-[38px] h-[45px] cursor-pointer'
+              className='w-[55px] h-[55px] cursor-pointer'
             />
             <h3 className='text-lg px-[10px]' >DARWIN LAB</h3>
         </a>

@@ -8,12 +8,12 @@
 }
 
 .services_font1 {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 300;
+  font-size: 62px;
   line-height: 165.5%;
-  background: linear-gradient(180deg, #f6f6f4 12.26%, rgba(0, 0, 0, 0) 133.87%);
+  background: white;
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -93,7 +93,7 @@
 
 .sheet_text {
   position: absolute;
-  font-size: small;
+  font-size: 10px;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -116,7 +116,7 @@
 
 .services_box :hover .sheet_text {
   position: absolute;
-  font-size: small;
+  font-size: 10px;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -199,7 +199,7 @@
 
 .sheet_text_tab {
   position: absolute;
-  font-size: small;
+  font-size: 12px;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -244,7 +244,7 @@
 
 .services_box :hover .sheet_text {
   position: absolute;
-  font-size: small;
+  font-size: 12px;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -268,7 +268,7 @@
 
 .services_box_tab :hover .sheet_text_tab {
   position: absolute;
-  font-size: small;
+  font-size: 11px;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -397,7 +397,7 @@
 
 .services_box_mob :hover .sheet_text_mob {
   position: absolute;
-  font-size: small;
+  font-size: 12;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -422,7 +422,7 @@
 
 .sheet_text_mob_ani {
   position: absolute;
-  font-size: small;
+  font-size: 8px;
   padding: 10px 0;
   border-top: 2px solid grey;
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -431,4 +431,12 @@
   opacity: 1;
   transition: opacity 1s linear;
   cursor: pointer;
+}
+
+.fontonly{
+  font-family: var(--aeonik);
+  font-weight: 300;
+  display: flex;
+  padding: 64px;
+  padding-top: 48px;
 }

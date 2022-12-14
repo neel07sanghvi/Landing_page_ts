@@ -94,7 +94,7 @@
   height: 50px;
   background-color: black;
   border-radius: 100px;
-  border: 2px solid #585858;
+  border: 2px solid #585858;  
 }
 
 .explorediv :hover {
@@ -105,9 +105,8 @@
 }
 
 .explore_btn :hover {
-  background-color: var(--primary);
-  /* transition: 2.5s; */
-  
+  /* background-color: var(--primary); */
+  transition: 0s;
 }
 
 /* tab view */

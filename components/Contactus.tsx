@@ -40,7 +40,7 @@ const Contactus = () => {
                       alt="mail"
                     />
                   </div>
-                  <div className="h-[100%] w-[85%] flex flex-col justify-center items-start  ">
+                  <div className="h-[100%] w-[85%] flex flex-col justify-center items-start ">
                     <div>You can drop a mail at,</div>
                     <div>jaydeepdedaniya@gmail.com</div>
                   </div>

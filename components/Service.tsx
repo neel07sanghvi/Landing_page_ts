@@ -7,10 +7,9 @@ const Service = () => {
     const handleShadow = () => {
       if (window.scrollY <= screen.height) {
         setnavbar_active(true);
-        console.log("working")
-      }
-      else{
-        console.log("not")
+        console.log("working");
+      } else {
+        console.log("not");
       }
     };
     window.addEventListener("scroll", handleShadow);
@@ -34,7 +33,7 @@ const Service = () => {
             <div className={styles.services_font1}>Put Technology </div>
             <div className={styles.services_font1}>At Work!</div>
           </div>
-          <div className="flex w-full p-16 py-12 justify-start  items-center  ">
+          <div className={"flex w-full p-16 py-12 justify-start  items-center" && styles.fontonly}>
             <div className="flex justify-center items-center px-2">
               <img
                 className="h-[25px]"
@@ -63,10 +62,14 @@ const Service = () => {
         </div>
         <div className="flex flex-col justify-center items-center h-full w-[50%] ">
           <div className="h-[600px] w-[500px] relative flex justify-start  items-center">
-            <a href="/authentication" target="_blank" className={styles.services_box}>
+            <a
+              href="/authentication"
+              target="_blank"
+              className={styles.services_box}
+            >
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
-                  className="h-[85%]"
+                  className="w-[55px] h-[55px]"
                   src="/assets/sheet.png"
                   alt="sheet"
                 />
@@ -84,9 +87,10 @@ const Service = () => {
                     />
                   </div>
                   <div className={styles.sheet_text}>
-                    With Darwin sheet you can create data apps, explore the data
-                    inferences and evolve your business. Without any
-                    pre-requisit of coding languages.
+                    Now you can practice data science workflow, with our
+                    intelligent No-code Platform. With Darwin sheet you can
+                    create data apps, explore the data inferences and evolve
+                    your business.
                   </div>
                 </div>
               </div>
@@ -128,7 +132,7 @@ const Service = () => {
             <div className={styles.services_font1_tab}>Put Technology </div>
             <div className={styles.services_font1_tab}>At Work!</div>
           </div>
-          <div className="flex w-full p-16 py-12 justify-start  items-center  ">
+          <div className={"flex w-full p-16 py-12 justify-start  items-center" && styles.fontonly}>
             <div className="flex justify-center items-center px-2 text-sm">
               <img
                 className="h-[20px]"
@@ -160,7 +164,7 @@ const Service = () => {
             <div className={styles.services_box_tab}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
                 <img
-                  className="h-[85%]"
+                  className="w-[55px] h-[55px]"
                   src="/assets/sheet.png"
                   alt="sheet"
                 />
@@ -178,9 +182,10 @@ const Service = () => {
                     />
                   </div>
                   <div className={styles.sheet_text_tab}>
-                    With Darwin sheet you can create data apps, explore the data
-                    inferences and evolve your business. Without any
-                    pre-requisit of coding languages.
+                  Now you can practice data science workflow, with our
+                    intelligent No-code Platform. With Darwin sheet you can
+                    create data apps, explore the data inferences and evolve
+                    your business.
                   </div>
                 </div>
               </div>
@@ -223,7 +228,7 @@ const Service = () => {
             <div className={styles.services_font1_mob}>Put Technology </div>
             <div className={styles.services_font1_mob}>At Work!</div>
           </div>
-          <div className="flex w-full p-10 justify-center  items-center  ">
+          <div className={"flex w-full p-16 py-12 justify-start  items-center" && styles.fontonly}>
             <div className="flex justify-center items-center px-4">
               <img
                 className="h-[20px]"
@@ -254,11 +259,7 @@ const Service = () => {
           <div className="h-[600px] w-[280px] relative flex justify-center  items-center">
             <div className={styles.services_box_mob}>
               <div className="h-[15%] w-[100%] flex flex-col justify-center items-start z-101">
-                <img
-                  className="h-[100%]"
-                  src="/assets/sheet.png"
-                  alt="sheet"
-                />
+                <img className="h-[100%]" src="/assets/sheet.png" alt="sheet" />
               </div>
 
               <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
@@ -270,9 +271,7 @@ const Service = () => {
                         : styles.darwinsheet_mob
                     }
                   >
-                    <div className="font-bold text-[15px]">
-                      Darwin Sheet
-                    </div>
+                    <div className="font-bold text-[15px]">Darwin Sheet</div>
                   </div>
                   <div
                     className={
@@ -281,10 +280,11 @@ const Service = () => {
                         : styles.sheet_text_mob
                     }
                   >
-                    <div className="text-[9px]">
-                      With Darwin sheet you can create data apps, explore the
-                      data inferences and evolve your business. Without any
-                      pre-requisit of coding languages.
+                    <div className="text-[8px]">
+                    Now you can practice data science workflow, with our
+                    intelligent No-code Platform. With Darwin sheet you can
+                    create data apps, explore the data inferences and evolve
+                    your business.
                     </div>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ const Service = () => {
             />
           </div>
         </div>
-        <a className="absolute bottom-[50px]"  href="/#aboutus">
+        <a className="absolute bottom-[50px]" href="/#aboutus">
           <img className="py-6" src="/assets/downarrow.png" alt="arrow" />
         </a>
       </div>
