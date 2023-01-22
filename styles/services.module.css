@@ -183,7 +183,7 @@
   position: relative;
   z-index: 102;
   transition: 0.5s ease-in-out;
-  font-family: var(--poppins);
+  font-family: var(--aeonik);
 }
 
 .darwinsheet_tab {
@@ -218,7 +218,7 @@
 }
 
 .services_font1_tab {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
   font-weight: 700;
   font-size: 37px;
@@ -339,11 +339,11 @@
 }
 
 .services_font1_mob {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   font-size: 30px;
-  line-height: 165.5%;
+  line-height: 135.5%;
   background: linear-gradient(180deg, #f6f6f4 12.26%, rgba(0, 0, 0, 0) 133.87%);
 
   -webkit-background-clip: text;
@@ -435,8 +435,17 @@
 
 .fontonly{
   font-family: var(--aeonik);
-  font-weight: 300;
+  font-weight: 300; 
   display: flex;
   padding: 30px;
   padding-top: 48px;
+}
+
+.comingsoon{
+  font-weight: 600;
+  font-size: larger;
+  padding: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

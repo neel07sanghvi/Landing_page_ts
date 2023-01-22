@@ -14,7 +14,7 @@
 }
 
 .contactus_text2 {
-  font-family: "Poppins";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
@@ -95,10 +95,10 @@
 
 
 .contactus_text1_mob {
-  font-family: "Poppins";
+  font-family: var(--aeonik);
   font-style: normal;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 40px;
   line-height: 45px;
   display: flex;
   align-items: center;
@@ -110,10 +110,10 @@
 }
 
 .contactus_text2_mob {
-  font-family: "Poppins";
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 166.5%;
 
   display: flex;
@@ -153,6 +153,7 @@
   align-items: center;
   padding: 10px;
   padding-bottom: 0px;
+  font-family: 'Inter', sans-serif;
 }
 
 .contactus_mail_mob{
@@ -160,6 +161,7 @@
   position: absolute;
   top: 200px;
   left: -35px;
+  font-family: 'Inter', sans-serif;
 }
 
 .contactus_phone_mob{
@@ -167,6 +169,7 @@
   position: absolute;
   top: 30px;
   left: 60px;
+  font-family: 'Inter', sans-serif;
 }
 
 .contactus_sms_mob{
@@ -174,6 +177,7 @@
   position: absolute;
   top: 30px;
   left: 160px;
+  font-family: 'Inter', sans-serif;
 }
 
 .contactus_coffee_mob{
@@ -181,6 +185,7 @@
   position: absolute;
   top: 200px;
   left: 260px;
+  font-family: 'Inter', sans-serif;
 }
 
 .contactus_innerbox_mob{
@@ -193,4 +198,5 @@
   align-items: center;
   font-size: 10px;
   color: #9EA2A3;
+  font-family: 'Inter', sans-serif;
 }

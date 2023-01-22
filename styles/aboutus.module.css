@@ -4,11 +4,9 @@
   width: 700px;
   height: 300px;
 
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.6) 0%,
-    rgba(0, 0, 0, 0.1) 97.68%
-  );
+  background: linear-gradient(90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(0, 0, 0, 0.1) 97.68%);
   backdrop-filter: blur(25px);
 
   border-radius: 10px;
@@ -26,14 +24,12 @@
 }
 
 .subbox {
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.6) 0%,
-    rgba(0, 0, 0, 0.1) 97.68%
-  );
+  background: linear-gradient(90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(0, 0, 0, 0.1) 97.68%);
   backdrop-filter: blur(20px);
   border-radius: 10px;
-  
+
   position: absolute;
   top: 400px;
   left: 210px;
@@ -52,26 +48,26 @@
 }
 
 
-.boximg1{
-    position: absolute;
-    top: 45px;
-    left: -50px;
-    height: 200px;
+.boximg1 {
+  position: absolute;
+  top: 45px;
+  left: -50px;
+  height: 200px;
 }
 
-.boximg2{
-    position: absolute;
-    height: 150px;
-    top: 320px;
-    left: 820px;
+.boximg2 {
+  position: absolute;
+  height: 150px;
+  top: 320px;
+  left: 820px;
 }
 
-.comma{
-    position: absolute;
-    height: 40px;
-    top: 127px;
-    left: 700px;
-    z-index: 106;
+.comma {
+  position: absolute;
+  height: 40px;
+  top: 127px;
+  left: 700px;
+  z-index: 106;
 }
 
 /* tab view */
@@ -82,11 +78,9 @@
   width: 550px;
   height: 200px;
 
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.6) 0%,
-    rgba(0, 0, 0, 0.1) 97.68%
-  );
+  background: linear-gradient(90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(0, 0, 0, 0.1) 97.68%);
   backdrop-filter: blur(25px);
 
   border-radius: 10px;
@@ -105,14 +99,12 @@
 }
 
 .subbox_md {
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.6) 0%,
-    rgba(0, 0, 0, 0.1) 97.68%
-  );
+  background: linear-gradient(90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(0, 0, 0, 0.1) 97.68%);
   backdrop-filter: blur(20px);
   border-radius: 10px;
-  
+
   position: absolute;
   top: 330px;
   left: 140px;
@@ -131,26 +123,26 @@
 }
 
 
-.boximg1_md{
-    position: absolute;
-    top: 40px;
-    left: -55px;
-    height: 150px;
+.boximg1_md {
+  position: absolute;
+  top: 40px;
+  left: -55px;
+  height: 150px;
 }
 
-.boximg2_md{
-    position: absolute;
-    height: 120px;
-    top: 270px;
-    left: 620px;
+.boximg2_md {
+  position: absolute;
+  height: 120px;
+  top: 270px;
+  left: 620px;
 }
 
-.comma_md{
-    position: absolute;
-    height: 40px;
-    top: 127px;
-    left: 500px;
-    z-index: 106;
+.comma_md {
+  position: absolute;
+  height: 40px;
+  top: 127px;
+  left: 500px;
+  z-index: 106;
 }
 
 /* mob view */
@@ -162,11 +154,9 @@
   width: 85%;
   height: 200px;
 
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.6) 0%,
-    rgba(0, 0, 0, 0.1) 97.68%
-  );
+  background: linear-gradient(90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(0, 0, 0, 0.1) 97.68%);
   backdrop-filter: blur(25px);
 
   border-radius: 10px;
@@ -176,23 +166,22 @@
   align-items: center;
   padding: 15px;
   font-size: 16px;
-  color: rgba(97, 97, 97, 1);
-  font-family: sans-serif;
+  color: #F6F6F4;
+  font-family: 'Inter', sans-serif;
   z-index: 105;
   position: absolute;
+  font-weight: 200;
   top: 170px;
 
 }
 
 .subbox_mob {
-  background: linear-gradient(
-    90deg,
-    rgba(34, 34, 34, 0.6) 0%,
-    rgba(0, 0, 0, 0.1) 97.68%
-  );
+  background: linear-gradient(90deg,
+      rgba(34, 34, 34, 0.6) 0%,
+      rgba(0, 0, 0, 0.1) 97.68%);
   backdrop-filter: blur(20px);
   border-radius: 10px;
-  
+
   position: absolute;
   top: 450px;
   z-index: 106;
@@ -206,28 +195,31 @@
   padding: 10px;
   font-size: 11.5px;
   color: rgba(97, 97, 97, 1);
+  color: #F6F6F4;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
 
 }
 
 
-.boximg1_mob{
-    position: absolute;
-    top: 95px;
-    left: 2%;
-    height: 100px;
+.boximg1_mob {
+  position: absolute;
+  top: 95px;
+  left: 2%;
+  height: 100px;
 }
 
-.boximg2_mob{
-    position: absolute;
-    height: 80px;
-    top: 380px;
-    left: 70%;
+.boximg2_mob {
+  position: absolute;
+  height: 80px;
+  top: 380px;
+  left: 70%;
 }
 
-.comma_mob{
-    position: absolute;
-    height: 30px;
-    top: 152px;
-    left: 70%;
-    z-index: 106;
+.comma_mob {
+  position: absolute;
+  height: 30px;
+  top: 152px;
+  left: 70%;
+  z-index: 106;
 }

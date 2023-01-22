@@ -74,7 +74,7 @@ const Service = () => {
                   alt="sheet"
                 />
               </div>
-              <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
+              {/* <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
                 <div className={styles.animation_box}>
                   <div className={styles.darwinsheet}>
                     <div className="font-bold text-xl py-[10px]">
@@ -92,6 +92,12 @@ const Service = () => {
                     create data apps, explore the data inferences and evolve
                     your business.
                   </div>
+                </div>
+              </div> */}
+              <div className="h-[85%] w-full flex flex-col relative justify-center items-center z-101 ">
+                <div className={styles.comingsoon}>
+                <div>Comming</div>
+                <div>Soon</div>
                 </div>
               </div>
             </a>
@@ -169,7 +175,7 @@ const Service = () => {
                   alt="sheet"
                 />
               </div>
-              <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
+              {/* <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
                 <div className={styles.animation_box_tab}>
                   <div className={styles.darwinsheet_tab}>
                     <div className="font-bold text-xl py-[10px]">
@@ -187,6 +193,13 @@ const Service = () => {
                     create data apps, explore the data inferences and evolve
                     your business.
                   </div>
+                </div>
+              </div> */}
+              <div className="h-[85%] w-full flex flex-col relative justify-center items-center z-101 ">
+              <div className={styles.comingsoon}>
+                <div>Comming</div>
+                <div>Soon</div>
+
                 </div>
               </div>
             </div>
@@ -251,7 +264,7 @@ const Service = () => {
                 src="/assets/services/explore.png"
                 alt="explore"
               />
-              <div className="px-3  text-sm">Explore</div>
+              <div className="px-3 text-sm">Explore</div>
             </div>
           </div>
         </div>
@@ -262,7 +275,7 @@ const Service = () => {
                 <img className="h-[100%]" src="/assets/sheet.png" alt="sheet" />
               </div>
 
-              <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
+              {/* <div className="h-[85%] w-full flex flex-col relative justify-end items-center z-101 ">
                 <div className={styles.animation_box_mob}>
                   <div
                     className={
@@ -288,6 +301,14 @@ const Service = () => {
                     </div>
                   </div>
                 </div>
+                
+              </div> */}
+              <div className="h-[85%] w-full flex flex-col relative justify-center items-center z-101 ">
+
+                <div className={styles.comingsoon}>
+                  Comming Soon
+                </div>
+
               </div>
             </div>
 
